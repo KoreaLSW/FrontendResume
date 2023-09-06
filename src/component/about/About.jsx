@@ -53,6 +53,9 @@ export default function About() {
                         </div>
                     </div>
                 </div>
+                <div>
+                    
+                </div>
                 <div className={styles.bottomBox}>
                     <h2 className={styles.skills_title}>Skills</h2>
                     <ul className={styles.skills_list}>

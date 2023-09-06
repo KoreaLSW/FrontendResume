@@ -60,7 +60,22 @@ export default function ProjectItem({ value }) {
                 <div className={styles.buttonBox}>
                     <ProjectButton text={'view'} src={value.view} />
                     <ProjectButton text={'gitHub'} src={value.git} />
+                    {value.git2 && (
+                        <ProjectButton text={'Server'} src={value.git2} />
+                    )}
                 </div>
+                {value.ti_client && (
+                    <div className={styles.buttonBox}>
+                        <ProjectButton
+                            text={'client 설명'}
+                            src={value.ti_client}
+                        />
+                        <ProjectButton
+                            text={'server 설명'}
+                            src={value.ti_server}
+                        />
+                    </div>
+                )}
             </div>
         </li>
     );
