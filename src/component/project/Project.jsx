@@ -8,9 +8,10 @@ export default function Project() {
             id: 0,
             img: '/img/shareddiary.png',
             title: '공유일기(참여율: 100%)',
-            skills: 'HTML, CSS, TypeScript, React, NodeJS',
+            skills: 'HTML, CSS, TypeScript, React, NodeJS(Express), MySQL',
+            library: 'React-router-dom, Styled-components, React-query, Recoil',
             comment:
-                '행복했던일이나 슬펏던일들을 그냥 지나가기에는 너무 아쉬은날들이 많다고 느껴져서 그런 날들을 기록할수있도록 만든 프로젝트입니다.',
+                '행복했던일이나 슬펏던일들을 그냥 지나가기에는 너무 아쉬은날들이 많다고 느껴져서 그런 날들을 기록할수있도록 만든 프로젝트입니다. \n\n\n프로젝트 기술설명\n1. React-router-Dom라이브러리를 사용하여 라우팅을 하였습니다.\n2. Axios를 통해 HTTP통신을 하였습니다.\n3. ReactQuery라이브러리로 데이터와 오류 및 캐싱을 관리하고 상태를 업데이트하는데 사용했습니다.\n4. Socket통신으로 실시간양방향통신으로 채팅기능을 구현했습니다.\n5. useRef와 observer를 사용하여 무한스크롤링을 구현하었습니다. \n6. Styled Components라이브러리로 스타일링을 하고 모바일버전으로 볼수있게 반응형 웹페이지로 제작하였습니다. \n7. Recoil을 사용하여 User정보를 전역관리로 사용하였습니다.',
             view: 'https://timely-youtiao-22dcc8.netlify.app/',
             git: 'https://github.com/KoreaLSW/SharedDiary_client',
             git2: 'https://github.com/KoreaLSW/SharedDiary_server',

@@ -54,6 +54,12 @@ export default function ProjectItem({ value }) {
             <div className={styles.rightBox}>
                 <p className={styles.title}>{value.title}</p>
                 <p className={styles.skills}>사용 언어 : {value.skills}</p>
+                {value.library && (
+                    <p className={styles.skills}>
+                        사용 라이브러리 : {value.library}
+                    </p>
+                )}
+
                 <p className={styles.comment}>
                     프로젝트 설명 : {value.comment}
                 </p>
