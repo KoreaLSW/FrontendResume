@@ -20,16 +20,6 @@ export default function Project() {
         },
         {
             id: 1,
-            img: '/img/football.png',
-            title: 'FootBall(참여율: 100%)',
-            skills: 'HTML, CSS, TypeScript, React, NodeJS',
-            comment:
-                '평소에 축구보는걸 좋아해서 축구에 대한 정보나 축구에 관한 이야기를 나눌수있도록 커뮤니티를 만들어 보았습니다.',
-            view: 'http://leicestercity.store/',
-            git: 'https://github.com/KoreaLSW/football_project',
-        },
-        {
-            id: 2,
             img: '/img/mainportfolio.gif',
             title: '나의포트폴리오',
             skills: 'HTML, CSS, JavaScript, React, FireBase',
@@ -40,7 +30,7 @@ export default function Project() {
         },
 
         {
-            id: 3,
+            id: 2,
             img: '/img/weather.gif',
             title: '날씨 알리미',
             skills: '· HTML, CSS, JavsaScript, React',
